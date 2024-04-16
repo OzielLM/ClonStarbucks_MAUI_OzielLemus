@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_412_2P_EX.Catalogo"
+             Title="Catalogo"
+             BackgroundColor="White">
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout BackgroundColor="#e4e4e4">
+                <VerticalStackLayout.Shadow>
+                    <Shadow Brush="Black"
+                                Offset="10,10"
+                                Radius="50"
+                                Opacity="0.3" />
+                </VerticalStackLayout.Shadow>
+                <Label Text="Nuestras Bebidas"
+                           TextColor="Black"
+                           FontFamily="cocogooseSemi"
+                           FontSize="25"
+                           Margin="5,10"/>
+                <VerticalStackLayout>
+                    <Label Text="Menu"
+                           TextColor="Black"
+                           FontFamily="cocogooseSemi"
+                           FontSize="12"
+                           Margin="4,0,0,10"
+                           VerticalTextAlignment="Center"/>
+                    <BoxView WidthRequest="37"
+                             HeightRequest="5"
+                             Color="Green"
+                             Margin="4,0,0,10"
+                             HorizontalOptions="Start"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Label Text="Bebidas"
+                       TextColor="Black"
+                       Margin="6,10"
+                       FontFamily="cocogooseSemi"
+                       FontSize="20"/>
+                <BoxView WidthRequest="750"
+                         HeightRequest="5"
+                         Color="Green"/>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-20"
+                               Source="americano.png"/>
+                    </Frame>
+                    <Label Text="Cafe americano"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-20"
+                               Source="latte.png"/>
+                    </Frame>
+                    <Label Text="Cafe latte"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-20"
+                               Source="macchiato.png"/>
+                    </Frame>
+                    <Label Text="Cafe macchiato"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-30"
+                               Source="mocha.png"/>
+                    </Frame>
+                    <Label Text="Cafe mocha"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-30"
+                               Source="cappuccino.png"/>
+                    </Frame>
+                    <Label Text="Cafe cappuccino"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Frame BorderColor="Transparent"
+                           CornerRadius="100"
+                           Margin="10"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           IsClippedToBounds="True"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Image Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               Margin="-30"
+                               Source="chocolate.png"/>
+                    </Frame>
+                    <Label Text="Chocolate Mexicano"
+                           FontFamily="cocogooseSemi"
+                           FontSize="34"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

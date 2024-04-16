@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TDMPW_412_2P_EX
+build_property.ProjectDir = C:\Cuarto Semestre\Taller de desarrollo para aplicaciones moviles para windows\TDMPW_412_2P_EX\
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/Catalogo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.Catalogo.xaml
+build_metadata.AdditionalFiles.TargetPath = Catalogo.xaml
+build_metadata.AdditionalFiles.RelativePath = Catalogo.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/Ordenar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.Ordenar.xaml
+build_metadata.AdditionalFiles.TargetPath = Ordenar.xaml
+build_metadata.AdditionalFiles.RelativePath = Ordenar.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Cuarto Semestre/Taller de desarrollo para aplicaciones moviles para windows/TDMPW_412_2P_EX/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_412_2P_EX.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_412_2P_EX.Ordenar"
+             Title="Ordenar"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+        <Frame BackgroundColor="White" 
+               HasShadow="True" 
+               BorderColor="Transparent">
+            <HorizontalStackLayout>
+                <Frame BorderColor="Transparent"
+                       CornerRadius="100"
+                       Margin="10"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center">
+                    <Image Aspect="AspectFill"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           Margin="-20"
+                           Source="americano.png"
+                           x:Name="imgOrdenar"/>
+                </Frame>
+                <VerticalStackLayout Margin="10,0">
+                    <Label Text="Cafe americano"
+                           FontFamily="coolveticaNormal"
+                           TextColor="Black"
+                           FontSize="30"
+                           x:Name="txtNombre"/>
+                    <Label Text="Grande(16oz - 437ml)"
+                           FontFamily="coolveticaNormal"
+                           TextColor="Gray"
+                           Opacity=".8"
+                           x:Name="txtTamano"/>
+                    <Label Text="0 calorias"
+                           FontFamily="coolveticaNormal"
+                           TextColor="Gray"
+                           Opacity=".8"
+                           x:Name="txtCalorias"/>
+                    <Label Text="Sin Leche"
+                           FontFamily="coolveticaNormal"
+                           TextColor="Gray"
+                           Opacity=".8"
+                           x:Name="txtLeche"/>
+                    <HorizontalStackLayout Margin="0,10">
+                        <Button x:Name="btnMenos"
+                                Text="-"
+                                WidthRequest="70"
+                                BackgroundColor="ForestGreen"
+                                TextColor="White"
+                                Clicked="btnMenos_Clicked"/>
+                        <Label x:Name="txtNumeroBebidas"
+                               Margin="-5,0,-5,0"
+                               BackgroundColor="#dbd9d9"
+                               FontSize="25"
+                               HeightRequest="42"
+                               HorizontalOptions="Center"
+                               HorizontalTextAlignment="Center"
+                               Text="1"
+                               TextColor="Gray"
+                               VerticalOptions="Center"
+                               VerticalTextAlignment="Center"
+                               WidthRequest="100"/>
+                        <Button x:Name="btnMas"
+                                Text="+"
+                                WidthRequest="70"
+                                BackgroundColor="ForestGreen"
+                                TextColor="White"
+                                Clicked="btnMas_Clicked"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+                <Label x:Name="txtCosto"
+                       Text="$38.00"
+                       TextColor="Black"
+                       FontFamily="coolveticaNormal"
+                       FontSize="30"
+                       Margin="260,0,0,0"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#cdcdcd" BorderColor="Transparent" CornerRadius="0">
+            <VerticalStackLayout>
+                <Label Text="TAMBIEN TE PUEDEN GUSTAR"
+                       TextColor="Gray"
+                       FontFamily="coolveticaNormal"
+                       Margin="0,0,0,0"/>
+                <HorizontalStackLayout>
+                    <VerticalStackLayout>
+                        <Frame BorderColor="Transparent"
+                               CornerRadius="100"
+                               Margin="10"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               IsClippedToBounds="True"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <ImageButton Aspect="AspectFill"
+                                         HeightRequest="100"
+                                         WidthRequest="100"
+                                         Margin="-20"
+                                         Source="latte.png"
+                                         x:Name="btnLatte"
+                                         Clicked="Button_Clicked"/>
+                        </Frame>
+                        <Label Text="Cafe Latte"
+                               FontFamily="cocogooseSemi"
+                               FontSize="20"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="30,0,0,0">
+                        <Frame BorderColor="Transparent"
+                               CornerRadius="100"
+                               Margin="10"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               IsClippedToBounds="True"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <ImageButton Aspect="AspectFill"
+                                         HeightRequest="100"
+                                         WidthRequest="100"
+                                         Margin="-20"
+                                         Source="chocolate.png"
+                                         x:Name="btnChocolate"
+                                         Clicked="Button_Clicked"/>
+                        </Frame>
+                        <Label Text="Chocolate Mexicano"
+                               FontFamily="cocogooseSemi"
+                               FontSize="20"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="30,0,0,0">
+                        <Frame BorderColor="Transparent"
+                               CornerRadius="100"
+                               Margin="10"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               IsClippedToBounds="True"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <ImageButton Aspect="AspectFill"
+                                         HeightRequest="100"
+                                         WidthRequest="100"
+                                         Margin="-20"
+                                         Source="cappuccino.png"
+                                         x:Name="btnCappuccino"
+                                         Clicked="Button_Clicked"/>
+                        </Frame>
+                        <Label Text="Cafe Cappuccino"
+                               FontFamily="cocogooseSemi"
+                               FontSize="20"
+                               TextColor="Black"
+                               VerticalOptions="Center"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+        <HorizontalStackLayout Margin="0,20">
+            <Label Text="TAMBIEN TE PUEDEN GUSTAR"
+                   TextColor="Gray"
+                   FontFamily="coolveticaNormal"
+                   Margin="20,10,0,5"/>
+            <Image Source="{FontImage &#xF086;, FontFamily=icono3, Size=18, Color=Gray}"
+                   Margin="10,7,0,0"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Frame BackgroundColor="#e4e4e4" 
+                   BorderColor="Transparent"
+                   Margin="20,0,0,0"
+                   WidthRequest="350">
+                <HorizontalStackLayout>
+                    <Image Source="{FontImage &#xF145;, FontFamily=icono3, Size=18, Color=DarkKhaki}"/>
+                    <VerticalStackLayout>
+                        <Label Text="Cafedeldia"
+                               Margin="20,0,0,0"
+                               TextColor="Black"/>
+                        <Label Text="Expira: 21/08/23"
+                               Margin="20,0,0,0"
+                               TextColor="DarkSlateGrey"
+                               Opacity="0.7"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#e4e4e4" 
+                   BorderColor="Transparent"
+                   Margin="20,0,0,0"
+                   WidthRequest="350">
+                <HorizontalStackLayout>
+                    <Image Source="{FontImage &#xF0F5;, FontFamily=icono3, Size=18, Color=DarkKhaki}"/>
+                    <VerticalStackLayout>
+                        <Label Text="Beb o Pan Gold (2)"
+                               Margin="20,0,0,0"
+                               TextColor="Black"/>
+                        <Label Text="Expira: 15/11/23"
+                               Margin="20,0,0,0"
+                               TextColor="DarkSlateGrey"
+                               Opacity="0.7"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+        </HorizontalStackLayout>
+        <Label Text="Total..........................................$00.00"
+               TextColor="Black"
+               FontFamily="coolveticaNormal"
+               FontSize="50"
+               Margin="20,10"
+               x:Name="txtTotal"/>
+    </VerticalStackLayout>
+</ContentPage>

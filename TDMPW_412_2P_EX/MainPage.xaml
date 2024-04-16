@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local ="clr-namespace:TDMPW_412_2P_EX"
+             x:Class="TDMPW_412_2P_EX.MainPage"
+            BarBackgroundColor="#f2f2f2"
+            BarTextColor="Black"
+            SelectedTabColor="Green">
+
+    <ContentPage Title="Inicio"
+                 BackgroundColor="White"
+                 IconImageSource="{FontImage &#xE800;, FontFamily=icono2, Size=20, Color=Black}">
+        <ScrollView>
+            <VerticalStackLayout>
+                <VerticalStackLayout BackgroundColor="#e4e4e4">
+                    <VerticalStackLayout.Shadow>
+                        <Shadow Brush="Black"
+                                Offset="10,10"
+                                Radius="50"
+                                Opacity="0.3" />
+                    </VerticalStackLayout.Shadow>
+                    <Label Text="Bienvenido(a)"
+                           TextColor="Black"
+                           FontFamily="cocogooseSemi"
+                           FontSize="25"
+                           Margin="5,10"/>
+                    <HorizontalStackLayout Margin="0,0,0,10">
+                        <Image Source="{FontImage &#xF2C0;, FontFamily=icono, Size=20, Color=Black}"
+                               Margin="4,0"/>
+                        <Label Text="Ingresar"
+                               TextColor="Black"
+                               FontFamily="cocogooseSemi"
+                               FontSize="12"
+                               Margin="4,0"
+                               VerticalTextAlignment="Center"/>
+                        <Image Source="{FontImage &#xE800;, FontFamily=icono, Size=20, Color=Black}"
+                               Margin="15,0,4,0"/>
+                        <Label Text="Inbox"
+                               TextColor="Black"
+                               FontFamily="cocogooseSemi"
+                               FontSize="12"
+                               Margin="4,0"
+                               VerticalTextAlignment="Center"/>
+                        <Image Source="{FontImage &#xE801;, FontFamily=icono, Size=20, Color=Black}"
+                               Margin="15,0,0,0"/>
+                        <Image Source="{FontImage &#xE802;, FontFamily=icono, Size=20, Color=Black}"
+                               Margin="510,0,0,0"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+                <Label Text="CAFETERIA REWARDS"
+                       TextColor="Gray"
+                       Opacity=".75"
+                       FontFamily="coolveticaNormal"
+                       Margin="9,10,0,0"/>
+                <HorizontalStackLayout>
+                    <VerticalStackLayout>
+                        <Image Source="publicidad1.jpg"
+                               HeightRequest="200"
+                               Margin="20,20,0,10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="Obten bebidas gratis, alimentos y mas"
+                               TextColor="Black"
+                               Margin="20,0,0,0"
+                               FontFamily="coolveticaCondensed"
+                               FontSize="25"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout>
+                        <Image Source="publicidad2.jpeg"
+                               HeightRequest="200"
+                               Margin="20,20,0,10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="Disfruta de nuestras bebidas con amigos"
+                               TextColor="Black"
+                               Margin="20,0,0,0"
+                               FontFamily="coolveticaCondensed"
+                               FontSize="25"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout>
+                        <Image Source="publicidad3.jpg"
+                               HeightRequest="200"
+                               Margin="20,20,0,10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="Acompañanos este fin de semana"
+                               TextColor="Black"
+                               Margin="20,0,0,0"
+                               FontFamily="coolveticaCondensed"
+                               FontSize="25"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+                <Frame BorderColor="Transparent"
+                       CornerRadius="30"
+                       Margin="10"
+                       HeightRequest="500"
+                       WidthRequest="400"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center">
+                    <Image Aspect="AspectFill"
+                           HeightRequest="500"
+                           WidthRequest="400"
+                           Margin="-20"
+                           Source="publicidad4.jpg"/>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <local:Catalogo IconImageSource="{FontImage &#xE801;, FontFamily=icono2, Size=20, Color=Black}"/>
+    <local:Ordenar IconImageSource="{FontImage &#xE802;, FontFamily=icono2, Size=20, Color=Black}"/>
+</TabbedPage>
